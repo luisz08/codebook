@@ -12,5 +12,5 @@ string_test : $(OBJS)
 %.o : %.c
 	$(CC) -c $< $(CCFLAGS)
 clean:
-	rm *.o
+	rm *.o string_test
 .PHONY:clean
